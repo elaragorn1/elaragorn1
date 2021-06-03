@@ -1,0 +1,31 @@
+@import url(nullstyle.css);
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+.header_conetent {
+  max-width: 1044px;
+  padding: 0px 6px;
+}
+
+.menu_lsit {
+  height: 82px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.menu_lsit li {
+  margin: 0px 0px 0px 33px;
+}
+.menu_link {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+.menu_link:hover {
+  color: chocolate;
+}
